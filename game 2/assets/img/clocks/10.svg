@@ -1,0 +1,18 @@
+<svg width="451" height="451" viewBox="0 0 451 451" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="225.5" cy="225.5" r="203.5" fill="#DFDFDF" stroke="black" stroke-width="44"/>
+<rect x="199" y="200" width="52" height="52" rx="10" fill="black"/>
+<path d="M226 248V87.5" stroke="black" stroke-width="4"/>
+<path d="M123.834 163.116C122.241 163.57 121.317 165.23 121.772 166.823L129.179 192.788C129.634 194.381 131.294 195.304 132.887 194.849C134.48 194.395 135.404 192.735 134.949 191.141L128.365 168.062L151.444 161.478C153.037 161.024 153.96 159.363 153.506 157.77C153.051 156.177 151.391 155.254 149.798 155.708L123.834 163.116ZM206.886 208.293L126.115 163.379L123.199 168.622L203.97 213.537L206.886 208.293Z" fill="black"/>
+<circle cx="226.5" cy="68.5" r="12.5" fill="black"/>
+<circle cx="301.5" cy="87.5" r="12.5" fill="black"/>
+<circle cx="12.5" cy="12.5" r="12.5" transform="matrix(-1 0 0 1 163 75)" fill="black"/>
+<circle cx="379.5" cy="221.5" r="12.5" fill="black"/>
+<circle cx="12.5" cy="12.5" r="12.5" transform="matrix(-1 0 0 1 85 209)" fill="black"/>
+<circle cx="355.5" cy="146.5" r="12.5" fill="black"/>
+<circle cx="12.5" cy="12.5" r="12.5" transform="matrix(-1 0 0 1 109 134)" fill="black"/>
+<circle cx="355.5" cy="296.5" r="12.5" fill="black"/>
+<circle cx="12.5" cy="12.5" r="12.5" transform="matrix(-1 0 0 1 109 284)" fill="black"/>
+<circle cx="301.5" cy="349.5" r="12.5" fill="black"/>
+<circle cx="12.5" cy="12.5" r="12.5" transform="matrix(-1 0 0 1 163 337)" fill="black"/>
+<circle cx="226.5" cy="374.5" r="12.5" fill="black"/>
+</svg>

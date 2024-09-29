@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <div class="first-screen ">
+        <div class="first-screen__holder">
+            <p class="first-screen__group">
+                Б23ДЗ10
+            </p>
+            <p class="first-screen__heading">
+                начать игру
+            </p>
+            <p class="first-screen__author">
+                Тин-Шан Азалия
+            </p>
+        </div>
+    </div>
+    <div class="levels">
+        <div class="level level_clock ">
+            <p class="level_heading">
+                время
+            </p>
+            <div class="level__holder">
+                <div class="level__time">
+                    <span class="level__time-value">19</span>:00
+                </div>
+                <div class="level__clock">
+
+                </div>
+                <div class="level__avatar">
+                    <img src="./assets/img/human.svg" alt="" class="level__avatar-img">
+                    <div class="level__message">
+                        настрой часы
+                        на правильное время
+                    </div>
+                </div>
+                <button class="level__next-level-btn level__next-level-btn_clock">
+                    далее
+                </button>
+            </div>
+        </div>
+        <div class="level level_space closed">
+            <p class="level_heading">
+                пространс <br> тво
+            </p>
+            <div class="level__layout">
+                <div data-item="cup" class="level_box level_box_cup">
+
+                </div>
+                <div data-item="time" class="level_box level_box_time">
+
+                </div>
+                <div data-item="zont" class="level_box level_box_zont">
+
+                </div>
+                <div data-item="shoes" class="level_box level_box_shoes">
+
+                </div>
+                <div data-item="tel" class="level_box level_box_tel">
+
+                </div>
+            </div>
+            <div class="level__avatar">
+                <img src="./assets/img/human.svg" alt="" class="level__avatar-img">
+                <div class="level__message">
+                    разложи вещи
+                    по своим местам
+                </div>
+            </div>
+            <div class="level__items">
+                <div class="level__items">
+                    <img data-img="cup" src="./assets/img/items/cup.svg" alt="" class="level__item level__item_cup"
+                        draggable="false">
+                    <img data-img="time" src="./assets/img/items/time.svg" alt="" class="level__item level__item_time"
+                        draggable="false">
+                    <img data-img="zont" src="./assets/img/items/zont.svg" alt="" class="level__item level__item_zont"
+                        draggable="false">
+                    <img data-img="shoes" src="./assets/img/items/shoes.svg" alt=""
+                        class="level__item level__item_shoes" draggable="false">
+                    <img data-img="tel" src="./assets/img/items/tel.svg" alt="" class="level__item level__item_tel"
+                        draggable="false">
+                </div>
+            </div>
+            <button class="level__next-level-btn hidden level__next-level-btn_space">
+                далее
+            </button>
+        </div>
+        <div class="level level_opinion closed">
+            <p class="level_heading">
+                сознание
+            </p>
+            <div class="level__table">
+                <div class="level__row">
+                    <div class="level__row-item" draggable="false">
+                        <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="45" height="45" fill="black" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="level__row">
+                    <div class="level__row-item" draggable="false">
+                        <svg width="48" height="41" viewBox="0 0 48 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 0L47.3827 40.5H0.617313L24 0Z" fill="black" />
+                        </svg>
+
+                    </div>
+                </div>
+                <div class="level__row">
+                    <div class="level__row-item" draggable="false">
+                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" fill="black" />
+                        </svg>
+
+                    </div>
+                </div>
+                <div class="level__row">
+                    <div class="level__row-item" draggable="false">
+                        <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="45" height="45" fill="black" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="level__row">
+                    <div class="level__row-item" draggable="false">
+                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" fill="black" />
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+            <div class="level__avatar">
+                <img src="./assets/img/human.svg" alt="" class="level__avatar-img">
+                <div class="level__message level__message_opinion">
+                    перетяни фигурки
+                    на другую сторону
+                    и включи свет
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
